@@ -34,7 +34,9 @@ public class StudentsTest {
         System.out.println("1등한 학생의 정보");
         c.sortByScore();
         c.StudentsAt(0).println();
-        System.out.println("상위 세 명의 지도교수 평균 나이");
-
+        System.out.println("상위 세 명의 지도교수 평균 나이 \n" +
+            (c.StudentsAt(0).getAdvisor().getAge() +
+                    c.StudentsAt(1).getAdvisor().getAge() +
+                    c.StudentsAt(2).getAdvisor().getAge())/3.0);
     }
 }

@@ -33,6 +33,7 @@ public class Stu {
     }
     //advisor 설정자
     public void setAdvisor(Teacher t) {
+
         advisor = t;
     }
 

@@ -73,7 +73,8 @@ public class Students {
         }
         return sum/number;
     }
-    public void reverse() {
+    //배열을 역순으로
+   public void reverse() {
         int half = number/2;
         for(int i=0;i<half;i++) {
             swap(i,number-1-i);
