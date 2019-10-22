@@ -43,6 +43,7 @@ public class Stu {
     }
     //정보 출력 메소드
     public void println() {
-        System.out.println("[ID : " + id +",Name :" + name +",Score :"+score+"]");
+
+        System.out.println("ID: " + id +" Name: " + name +" Score : "+score);
     }
 }
